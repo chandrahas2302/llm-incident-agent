@@ -1,0 +1,35 @@
+[
+  {
+    "source": "kubernetes",
+    "type": "health_check_failed",
+    "service": "payments-api-test",
+    "severity": "critical",
+    "timestamp": "2026-02-07 17:50:00",
+    "payload": {
+      "status": "unreachable"
+    },
+    "metadata": {}
+  },
+  {
+    "source": "kubernetes",
+    "type": "container_crash",
+    "service": "payments-api-test",
+    "severity": "critical",
+    "timestamp": "2026-02-07 17:50:15",
+    "payload": {
+      "exit_code": 137
+    },
+    "metadata": {}
+  },
+  {
+    "source": "kubernetes",
+    "type": "restart_loop",
+    "service": "payments-api-test",
+    "severity": "critical",
+    "timestamp": "2026-02-07 18:32:30",
+    "payload": {
+      "restarts": 6
+    },
+    "metadata": {}
+  }
+]
