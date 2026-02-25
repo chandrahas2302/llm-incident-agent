@@ -80,10 +80,6 @@ Observe → Detect → Heal → Verify → Learn
 - Provides human-readable reasoning
 - Supports open-source instruction models
 
-### ✅ No Vendor Lock-in
-- No Azure dependency
-- No environment variable requirement
-- Fully configurable in-code
 
 ---
 
